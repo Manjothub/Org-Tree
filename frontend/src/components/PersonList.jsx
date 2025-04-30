@@ -101,7 +101,7 @@ const PersonList = ({ refresh, onRefresh }) => {
         <div className="card">
           <div className="card-body p-0">
             <ul className="list-group list-group-flush">
-              {persons.map((p) => (
+              {persons.map((p) => ( //start the loop
                 <li key={p.id} className="list-group-item">
                   <div className="d-flex justify-content-between align-items-center">
                     <div>

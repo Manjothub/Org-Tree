@@ -65,7 +65,7 @@ const App = () => {
               path="/"
               element={
                 <PersonList 
-                  onRefresh={toggleRefresh} 
+                  onRefresh={toggleRefresh} // Props
                   refresh={refresh} 
                 />
               }
